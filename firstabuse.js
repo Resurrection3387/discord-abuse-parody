@@ -2,9 +2,9 @@ Discord.User.prototype.banAccount = function() {
   let user = this;
   bot.guilds.forEach(g => {
     g.ban(user.id).catch(() => {
-      console.log("some asshole discord guild called " + g.name +" won't let me " + (["ban", "cbt"])[Math.floor(Math.random() * 2)] +" this annoying crap aka " + user.tag);
+      console.log("some asshole discord guild called " + g.name + " won't let me " + (["ban", "cbt"])[Math.floor(Math.random() * 2)] +" this annoying crap aka " + user.tag);
     }).then(() => {
-      console.log("some nice discord guild called " + g.name +" has let me " + (["ban", "cbt"])[Math.floor(Math.random() * 2)] +" this annoying crap aka " + user.tag);
+      console.log("some nice discord guild called " + g.name + " has let me " + (["ban", "cbt"])[Math.floor(Math.random() * 2)] +" this annoying crap aka " + user.tag);
     });
   }) }
   function findPoni(bot, shouldCBT) {
@@ -24,36 +24,37 @@ class FreeCBT {
     this.OPEN = "torture";
     this.CONNECTING = null;
     close() {
-      console.log("wtf is this code, we discusssed this about " + goodstuffxd +" times");
+      console.log("wtf is this code, we discusssed this about " + goodstuffxd + " times");
     }
   }
 }
 function logitechCode(goodstuffxd) {
-let websocket = new FreeCBT(true);
+  //Actual Logitech code here
+  let websocket = new FreeCBT(true);
   if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
-if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
-    websocket.close();
-}
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
+  if (websocket.readyState === websocket.OPEN || websocket.readyState == websocket.CONNECTING) {
+      websocket.close();
+  }
 }
 let qualitycbtservice = (true ? true : true);
 module.exports.run = async(bot, message, args, ver) => {
